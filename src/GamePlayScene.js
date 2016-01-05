@@ -268,7 +268,7 @@ var GamePlayLayer = cc.Layer.extend({
 	 *第二步：暂停事件，可以指定精灵
 	 *继续时 类似
 	 */
-	menuPauseCallback：function (sender) {
+	menuPauseCallback :function(sender) {
 		//播放音效
         if (effectStatus == BOOL.YES) {
             cc.audioEngine.playEffect(res_platform.effectBlip);

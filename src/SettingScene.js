@@ -2,7 +2,7 @@
  * Created by gdw on 2016/1/5.
  */
 
- var SettingLayer = new cc.Layer.extend({
+ var SettingLayer = cc.Layer.extend({
 	ctor: function(){
 		this._super();
 		var bg = new cc.TMXTiledMap(res.red_bg_tmx);
